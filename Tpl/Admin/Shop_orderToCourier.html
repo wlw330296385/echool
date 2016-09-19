@@ -1,0 +1,22 @@
+ <div class="row">
+        <div class="col-md-12">
+                <form id="AppOrderFhkd" action="" method="post" class="form-horizontal"
+                                                  data-bv-message=""
+                                                  data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
+                                                  data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+                                                  data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+                   <input type="hidden" name="id" value="{$cache.id}">                  
+                   <div class="form-group">
+                        <label class="col-lg-3 control-label">配送员<sup>*</sup></label>
+                        <div class="col-lg-7">
+                        	<!-- <input id="AppOrderFahuokd" type="text" class="form-control" name="fahuokd" value="{$cache.fahuokd}"> -->                     
+                        <select name="fahuokd" id="courier">
+                        <volist name="courier" id="co">
+                          <option value="{$co.id}">{$co.name}</option>
+                        </volist>
+                        </select>
+                        </div>
+                   </div>
+               </form>
+        </div>
+</div>

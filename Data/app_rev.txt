@@ -1,0 +1,932 @@
+收到请求:2016-05-17 10:54:46
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463453686  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+收到请求:2016-05-17 11:00:11
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463454011  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 11:00:11
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 11:00:11
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 11:00:11
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 11:00:11
+通知信息:推广二维码
+
+
+892收到请求:2016-05-17 11:00:11
+通知信息:6
+
+
+725收到请求:2016-05-17 11:00:13
+通知信息:
+
+
+收到请求:2016-05-17 11:01:46
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463454106  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 11:01:46
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 11:01:46
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 11:01:46
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 11:01:47
+通知信息:推广二维码
+
+
+892收到请求:2016-05-17 11:01:47
+通知信息:2
+
+
+879收到请求:2016-05-17 11:01:47
+通知信息:2
+
+
+725收到请求:2016-05-17 11:01:49
+通知信息:
+
+
+收到请求:2016-05-17 11:01:57
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463454117  MsgType=>event  Event=>SCAN  EventKey=>2  Ticket=>gQED8ToAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL2tUaDl0MlRsYk5RVnhMdUQxeENPAAIEm4k6VwMEAAAAAA==  
+
+
+374收到请求:2016-05-17 11:01:57
+通知信息:SCAN
+
+
+收到请求:2016-05-17 11:03:02
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463454181  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:03:02
+通知信息:VIEW
+
+
+收到请求:2016-05-17 11:03:54
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463454234  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 11:03:54
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 11:03:54
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 11:03:54
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 11:03:54
+通知信息:推广二维码
+
+
+892收到请求:2016-05-17 11:03:54
+通知信息:6
+
+
+725收到请求:2016-05-17 11:03:56
+通知信息:
+
+
+收到请求:2016-05-17 11:04:12
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463454252  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 11:04:12
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 11:04:12
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 11:04:12
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 11:04:12
+通知信息:推广二维码
+
+
+892收到请求:2016-05-17 11:04:12
+通知信息:oSoFTw5d5y-gSixY75sokckKt00c
+
+
+725收到请求:2016-05-17 11:04:14
+通知信息:
+
+
+收到请求:2016-05-17 11:04:49
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463454289  MsgType=>event  Event=>SCAN  EventKey=>6  Ticket=>gQFQ8ToAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL3hUanMtUC1sOTlTT1FPLUNSaENPAAIE9oc6VwMEAAAAAA==  
+
+
+374收到请求:2016-05-17 11:04:49
+通知信息:SCAN
+
+
+收到请求:2016-05-17 11:05:39
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw6mHFp9Pfn2LT8z7bghWzPg  CreateTime=>1463454339  MsgType=>event  Event=>subscribe  EventKey=>qrscene_6  Ticket=>gQFQ8ToAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL3hUanMtUC1sOTlTT1FPLUNSaENPAAIE9oc6VwMEAAAAAA==  
+
+
+374收到请求:2016-05-17 11:05:39
+通知信息:subscribe
+
+
+606收到请求:2016-05-17 11:05:40
+通知信息:<a href='http://shop.nntzd.com/App/Shop/index/ppid/8/'>欢迎你关注云校园</a>
+
+
+收到请求:2016-05-17 11:05:47
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw6mHFp9Pfn2LT8z7bghWzPg  CreateTime=>1463454347  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 11:05:47
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 11:05:47
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 11:05:47
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 11:05:47
+通知信息:推广二维码
+
+
+收到请求:2016-05-17 11:07:38
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463454458  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 11:07:38
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 11:07:38
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 11:07:38
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 11:07:38
+通知信息:推广二维码
+
+
+892收到请求:2016-05-17 11:07:38
+通知信息:oSoFTw4NFBS3Ikp587ceBP6wpzfo
+
+
+725收到请求:2016-05-17 11:07:40
+通知信息:
+
+
+收到请求:2016-05-17 11:07:49
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463454469  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:07:49
+通知信息:VIEW
+
+
+收到请求:2016-05-17 11:11:00
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw6mHFp9Pfn2LT8z7bghWzPg  CreateTime=>1463454660  MsgType=>text  Content=> 你好  MsgId=>6285489904286481461  
+
+
+131收到请求:2016-05-17 11:11:00
+通知信息: 你好
+
+
+725收到请求:2016-05-17 11:11:00
+通知信息:
+
+
+收到请求:2016-05-17 11:17:56
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455076  MsgType=>text  Content=>首页  MsgId=>6285491690992876688  
+
+
+131收到请求:2016-05-17 11:17:56
+通知信息:首页
+
+
+725收到请求:2016-05-17 11:17:56
+通知信息:
+
+
+收到请求:2016-05-17 11:18:31
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455111  MsgType=>text  Content=>测试回复  MsgId=>6285491841316732062  
+
+
+131收到请求:2016-05-17 11:18:31
+通知信息:测试回复
+
+
+686收到请求:2016-05-17 11:18:31
+通知信息:
+
+
+725收到请求:2016-05-17 11:18:31
+通知信息:
+
+
+收到请求:2016-05-17 11:19:32
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455172  MsgType=>text  Content=>首页  MsgId=>6285492103309737128  
+
+
+131收到请求:2016-05-17 11:19:32
+通知信息:首页
+
+
+686收到请求:2016-05-17 11:19:32
+通知信息:
+
+
+725收到请求:2016-05-17 11:19:32
+通知信息:
+
+
+收到请求:2016-05-17 11:20:09
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455208  MsgType=>text  Content=>首页  MsgId=>6285492257928559792  
+
+
+131收到请求:2016-05-17 11:20:09
+通知信息:首页
+
+
+686收到请求:2016-05-17 11:20:09
+通知信息:
+
+
+725收到请求:2016-05-17 11:20:09
+通知信息:
+
+
+收到请求:2016-05-17 11:21:34
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455294  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:21:34
+通知信息:VIEW
+
+
+收到请求:2016-05-17 11:30:08
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455808  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:30:08
+通知信息:VIEW
+
+
+收到请求:2016-05-17 11:32:19
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463455939  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:32:19
+通知信息:VIEW
+
+
+收到请求:2016-05-17 11:33:45
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463456025  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:33:45
+通知信息:VIEW
+
+
+收到请求:2016-05-17 11:40:51
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463456451  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 11:40:51
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:22:20
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463458940  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:22:20
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:23:00
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463458980  MsgType=>event  Event=>subscribe  EventKey=>  
+
+
+374收到请求:2016-05-17 12:23:00
+通知信息:subscribe
+
+
+606收到请求:2016-05-17 12:23:01
+通知信息:<a href='http://shop.nntzd.com/App/Shop/index/ppid/9/'>欢迎你关注云校园</a>
+
+
+收到请求:2016-05-17 12:23:03
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463458983  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:23:03
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:23:12
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463458992  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:23:12
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:23:43
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463459023  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:23:43
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:23:46
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463459026  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:23:46
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:27:40
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463459260  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:27:40
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:45:27
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463460327  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:45:27
+通知信息:VIEW
+
+
+收到请求:2016-05-17 12:45:38
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463460338  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 12:45:38
+通知信息:VIEW
+
+
+收到请求:2016-05-17 16:38:29
+通知信息:ToUserName=>gh_14d4cecec01f  FromUserName=>oc1RMszkQh-3F1NxXYQpAtU9jzKs  CreateTime=>1463474309  MsgType=>event  Event=>unsubscribe  EventKey=>  
+
+
+374收到请求:2016-05-17 16:38:29
+通知信息:unsubscribe
+
+
+收到请求:2016-05-17 18:05:22
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463479522  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 18:05:22
+通知信息:VIEW
+
+
+收到请求:2016-05-17 18:05:59
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463479558  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 18:05:59
+通知信息:VIEW
+
+
+收到请求:2016-05-17 18:06:27
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw6mHFp9Pfn2LT8z7bghWzPg  CreateTime=>1463479587  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 18:06:27
+通知信息:VIEW
+
+
+收到请求:2016-05-17 19:10:49
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463483449  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 19:10:49
+通知信息:VIEW
+
+
+收到请求:2016-05-17 19:27:04
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463484424  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-17 19:27:04
+通知信息:CLICK
+
+
+131收到请求:2016-05-17 19:27:04
+通知信息:推广二维码
+
+
+131收到请求:2016-05-17 19:27:04
+通知信息:推广二维码
+
+
+253收到请求:2016-05-17 19:27:04
+通知信息:推广二维码
+
+
+892收到请求:2016-05-17 19:27:04
+通知信息:oSoFTw4NFBS3Ikp587ceBP6wpzfo
+
+
+725收到请求:2016-05-17 19:27:06
+通知信息:
+
+
+收到请求:2016-05-17 19:27:19
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463484439  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-17 19:27:19
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:31:19
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509878  MsgType=>event  Event=>subscribe  EventKey=>  
+
+
+374收到请求:2016-05-18 02:31:19
+通知信息:subscribe
+
+
+606收到请求:2016-05-18 02:31:19
+通知信息:<a href='http://shop.nntzd.com/App/Shop/index/ppid/10/'>欢迎你关注云校园</a>
+
+
+收到请求:2016-05-18 02:31:25
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509885  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 02:31:25
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:32:18
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509938  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 02:32:18
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:32:22
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509942  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 02:32:22
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:32:31
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509951  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 02:32:31
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:32:50
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509970  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 02:32:50
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:32:54
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509974  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-18 02:32:54
+通知信息:CLICK
+
+
+131收到请求:2016-05-18 02:32:54
+通知信息:推广二维码
+
+
+131收到请求:2016-05-18 02:32:54
+通知信息:推广二维码
+
+
+253收到请求:2016-05-18 02:32:54
+通知信息:推广二维码
+
+
+收到请求:2016-05-18 02:32:58
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463509978  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 02:32:58
+通知信息:VIEW
+
+
+收到请求:2016-05-18 02:33:45
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzG60a9ueK9z_If04GdDzZM  CreateTime=>1463510025  MsgType=>event  Event=>unsubscribe  EventKey=>  
+
+
+374收到请求:2016-05-18 02:33:45
+通知信息:unsubscribe
+
+
+收到请求:2016-05-18 09:24:48
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463534688  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:24:48
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:25:53
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463534753  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:25:53
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:30:32
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535032  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-18 09:30:32
+通知信息:CLICK
+
+
+131收到请求:2016-05-18 09:30:32
+通知信息:推广二维码
+
+
+131收到请求:2016-05-18 09:30:32
+通知信息:推广二维码
+
+
+253收到请求:2016-05-18 09:30:32
+通知信息:推广二维码
+
+
+892收到请求:2016-05-18 09:30:32
+通知信息:oSoFTw4NFBS3Ikp587ceBP6wpzfo
+
+
+725收到请求:2016-05-18 09:30:35
+通知信息:
+
+
+收到请求:2016-05-18 09:30:38
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535038  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:30:38
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:30:42
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535042  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:30:42
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:30:44
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535044  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:30:44
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:30:48
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535048  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-18 09:30:48
+通知信息:CLICK
+
+
+131收到请求:2016-05-18 09:30:48
+通知信息:推广二维码
+
+
+131收到请求:2016-05-18 09:30:48
+通知信息:推广二维码
+
+
+253收到请求:2016-05-18 09:30:48
+通知信息:推广二维码
+
+
+892收到请求:2016-05-18 09:30:48
+通知信息:oSoFTw4NFBS3Ikp587ceBP6wpzfo
+
+
+725收到请求:2016-05-18 09:30:49
+通知信息:
+
+
+收到请求:2016-05-18 09:30:52
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535052  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:30:52
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:31:06
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535065  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:31:06
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:34:17
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535257  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:34:17
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:34:25
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535265  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:34:25
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:34:41
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535281  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:34:41
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:39:56
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw4NFBS3Ikp587ceBP6wpzfo  CreateTime=>1463535596  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:39:56
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:44:22
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw6mHFp9Pfn2LT8z7bghWzPg  CreateTime=>1463535862  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:44:22
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:53:55
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463536435  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:53:55
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:53:59
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463536439  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:53:59
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:55:05
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzJaVnkF8XxCws8gqzvruGU  CreateTime=>1463536505  MsgType=>event  Event=>subscribe  EventKey=>  
+
+
+374收到请求:2016-05-18 09:55:05
+通知信息:subscribe
+
+
+606收到请求:2016-05-18 09:55:06
+通知信息:<a href='http://shop.nntzd.com/App/Shop/index/ppid/11/'>欢迎你关注云校园</a>
+
+
+收到请求:2016-05-18 09:55:10
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw47IlnDdh_aSks-0nc2uFxs  CreateTime=>1463536510  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:55:10
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:55:15
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzJaVnkF8XxCws8gqzvruGU  CreateTime=>1463536515  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:55:15
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:57:16
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzJaVnkF8XxCws8gqzvruGU  CreateTime=>1463536636  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:57:16
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:57:23
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzJaVnkF8XxCws8gqzvruGU  CreateTime=>1463536643  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:57:23
+通知信息:VIEW
+
+
+收到请求:2016-05-18 09:57:33
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzJaVnkF8XxCws8gqzvruGU  CreateTime=>1463536653  MsgType=>event  Event=>CLICK  EventKey=>推广二维码  
+
+
+374收到请求:2016-05-18 09:57:33
+通知信息:CLICK
+
+
+131收到请求:2016-05-18 09:57:33
+通知信息:推广二维码
+
+
+131收到请求:2016-05-18 09:57:33
+通知信息:推广二维码
+
+
+253收到请求:2016-05-18 09:57:33
+通知信息:推广二维码
+
+
+收到请求:2016-05-18 09:57:51
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTwzJaVnkF8XxCws8gqzvruGU  CreateTime=>1463536671  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 09:57:51
+通知信息:VIEW
+
+
+收到请求:2016-05-18 11:54:40
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463543680  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 11:54:40
+通知信息:VIEW
+
+
+收到请求:2016-05-18 11:59:37
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463543977  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 11:59:37
+通知信息:VIEW
+
+
+收到请求:2016-05-18 12:03:29
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463544209  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Vip/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 12:03:29
+通知信息:VIEW
+
+
+收到请求:2016-05-18 16:22:28
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463559748  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 16:22:28
+通知信息:VIEW
+
+
+收到请求:2016-05-18 16:36:37
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463560597  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 16:36:37
+通知信息:VIEW
+
+
+收到请求:2016-05-18 16:40:57
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463560856  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 16:40:57
+通知信息:VIEW
+
+
+收到请求:2016-05-18 16:42:37
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463560957  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 16:42:37
+通知信息:VIEW
+
+
+收到请求:2016-05-18 16:52:19
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463561539  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 16:52:19
+通知信息:VIEW
+
+
+收到请求:2016-05-18 17:01:18
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463562078  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 17:01:18
+通知信息:VIEW
+
+
+收到请求:2016-05-18 17:29:01
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw6mHFp9Pfn2LT8z7bghWzPg  CreateTime=>1463563741  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-18 17:29:01
+通知信息:VIEW
+
+
+收到请求:2016-05-19 09:27:59
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463621279  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/index  MenuId=>407597009  
+
+
+374收到请求:2016-05-19 09:27:59
+通知信息:VIEW
+
+
+收到请求:2016-05-19 09:28:01
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463621281  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-19 09:28:01
+通知信息:VIEW
+
+
+收到请求:2016-05-19 09:28:50
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463621330  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-19 09:28:50
+通知信息:VIEW
+
+
+收到请求:2016-05-19 09:29:39
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463621379  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-19 09:29:39
+通知信息:VIEW
+
+
+收到请求:2016-05-19 09:30:46
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463621446  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-19 09:30:46
+通知信息:VIEW
+
+
+收到请求:2016-05-19 09:31:13
+通知信息:ToUserName=>gh_be7c050706c2  FromUserName=>oSoFTw5d5y-gSixY75sokckKt00c  CreateTime=>1463621473  MsgType=>event  Event=>VIEW  EventKey=>http://shop.nntzd.com/App/Shop/orderList/sid/0/  MenuId=>407597009  
+
+
+374收到请求:2016-05-19 09:31:13
+通知信息:VIEW
+
+

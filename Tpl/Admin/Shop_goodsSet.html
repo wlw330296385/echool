@@ -1,0 +1,434 @@
+<style type="text/css">
+*{margin:0;padding:0;list-style:none;}
+html{background-color:#E3E3E3; font-size:14px; color:#000; font-family:'微软雅黑'}
+h2{line-height:30px; font-size:20px;}
+a,a:hover{ text-decoration:none;}
+pre{font-family:'微软雅黑'}
+.box{width:970px; padding:10px 20px; background-color:#fff; margin:10px auto;}
+.box a{padding-right:20px;}
+.demo1,.demo2,.demo3,.demo4,.demo5,.demo6{margin:25px 0;}
+h3{margin:10px 0;}
+.layinput{height: 22px;line-height: 22px;width: 150px;margin: 0;}
+</style>
+<!--百度编辑器-->
+<script src="__PUBLIC__/Admin/ueditor/ueditor.config.js"></script>
+<script src="__PUBLIC__/Admin/ueditor/ueditor.all.min.js"></script>
+<!-- 日期插件 -->
+<script src="__PUBLIC__/Admin/inputtime/js/laydate.js"></script>
+<div class="row">
+    <div class="col-xs-12 col-xs-12">
+        <div class="widget radius-bordered">
+            <div class="widget-header bg-blue">
+                <i class="widget-icon fa fa-arrow-down"></i>
+                <span class="widget-caption">商品设置</span>
+                <div class="widget-buttons">
+                    <a href="#" data-toggle="maximize">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a href="#" data-toggle="collapse">
+                        <i class="fa fa-minus"></i>
+                    </a>
+                    <a href="#" data-toggle="dispose">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="widget-body">
+                <form id="AppForm" action="" method="post" class="form-horizontal" data-bv-message="" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+                    <input type="hidden" name="id" value="{$cache.id}">
+                    <div class="form-title">
+                        <a href="{:U('Admin/Shop/goods/')}" class="btn btn-primary" data-loader="App-loader" data-loadername="商品分组">
+                            <i class="fa fa-mail-reply"></i>返回
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">选择分类</label>
+                        <div class="col-lg-4">
+                            <select class="form-control" name="cid">
+                                <option value="0">顶级分类</option>
+                                <volist name="cate" id="vo">
+                                    <option value="{$vo.id}" <eq name="vo.id" value="$cache.cid">selected</eq>>{$vo.name}</option>
+                                    <volist name="vo['_child']" id="vo2">
+                                        <option value="{$vo2.id}" <eq name="vo2.id" value="$cache.cid">selected</eq>>&nbsp;&nbsp;└{$vo2.name}</option>
+                                        <foreach name="vo2['_child']" item="vo3">
+                                            <option value="{$vo3.id}" <eq name="vo3.id" value="$cache.cid">selected</eq>>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└{$vo3.name}</option>
+                                            <foreach name="vo3['_child']" item="vo4">
+                                                <option value="{$vo4.id}" <eq name="vo4.id" value="$cache.cid">selected</eq>>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└{$vo4.name}</option>
+                                                <foreach name="vo4['_child']" item="vo5">
+                                                    <option value="{$vo5.id}" <eq name="vo5.id" value="$cache.cid">selected</eq>>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└{$vo5.name}</option>
+                                                </foreach>
+                                            </foreach>
+                                        </foreach>
+                                    </volist>
+                                </volist>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品名称<sup>*</sup></label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="name" placeholder="必填" data-bv-notempty="true" data-bv-notempty-message="不能为空" value="{$cache.name}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">首页大图片</label>
+                        <div class="col-lg-4">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" name="indexpic" value="{$cache.indexpic}" id="App-indexpic" placeholder="尺寸：675*320px">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default shiny" type="button" onclick="appImgviewer('App-indexpic')"><i class="fa fa-camera-retro"></i>预览</button><button class="btn btn-default shiny" type="button" onclick="appImguploader('App-indexpic',false)"><i class="glyphicon glyphicon-picture"></i>上传</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">首页列表图片</label>
+                        <div class="col-lg-4">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" name="listpic" value="{$cache.listpic}" id="App-listpic" placeholder="尺寸：335*260px">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default shiny" type="button" onclick="appImgviewer('App-listpic')"><i class="fa fa-camera-retro"></i>预览</button><button class="btn btn-default shiny" type="button" onclick="appImguploader('App-listpic',false)"><i class="glyphicon glyphicon-picture"></i>上传</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品图片</label>
+                        <div class="col-lg-4">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" name="pic" value="{$cache.pic}" id="App-pic" placeholder="尺寸：720*400px">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default shiny" type="button" onclick="appImgviewer('App-pic')"><i class="fa fa-camera-retro"></i>预览</button><button class="btn btn-default shiny" type="button" onclick="appImguploader('App-pic',false)"><i class="glyphicon glyphicon-picture"></i>上传</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品图集</label>
+                        <div class="col-lg-4">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" name="album" value="{$cache.album}" id="App-album">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default shiny" type="button" onclick="appImgviewer('App-album')"><i class="fa fa-camera-retro"></i>预览</button><button class="btn btn-default shiny" type="button" onclick="appImguploader('App-album',true)"><i class="glyphicon glyphicon-picture"></i>上传</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品单位<sup>*</sup></label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="unit" placeholder="" value="{$cache.unit}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品价格<sup>*</sup></label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="price" placeholder="必填" data-bv-notempty="true" data-bv-notempty-message="不能为空" value="{$cache.price}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品原价<sup>*</sup></label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="oprice" placeholder="必填" data-bv-notempty="true" data-bv-notempty-message="不能为空" value="{$cache.oprice}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">分销佣金</label>
+                        <div class="col-lg-2">
+                            <div class="input-group input-group-xs">
+                                <span class="input-group-btn">
+                           <button class="btn btn-darkorange" type="button">一级(%)：</button>
+                            </span>
+                                <input name="fx1rate" type="text" class="form-control" value="{$cache.fx1rate}">
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="input-group input-group-xs">
+                                <span class="input-group-btn">
+                             <button class="btn btn-darkorange" type="button">二级(%)：</button>
+                         </span>
+                                <input name="fx2rate" type="text" class="form-control" value="{$cache.fx2rate}">
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="input-group input-group-xs">
+                                <span class="input-group-btn">
+                             <button class="btn btn-darkorange" type="button">三级(%)：</button>
+                         </span>
+                                <input name="fx3rate" type="text" class="form-control" value="{$cache.fx3rate}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品库存<sup>*</sup></label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="num" placeholder="必填" data-bv-notempty="true" data-bv-notempty-message="不能为空" value="{$cache.num}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">启用SKU</label>
+                        <div class="col-lg-4">
+                            <label>
+                                <input type="hidden" name="issku" value="{$cache.issku}" id="issku">
+                                <input class="checkbox-slider slider-icon colored-darkorange" type="checkbox" id="isskubtn" <eq name="cache.issku" value="1">checked="checked"</eq>>
+                                <span class="text darkorange">&nbsp;&nbsp;&larr;重要：启用后将采用商品SKU模式管理库存，价格与销量。</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">是否免邮费</label>
+                        <div class="col-lg-4">
+                            <label>
+                                <input type="hidden" name="ismy" value="{$cache.ismy}" id="ismy">
+                                <input class="checkbox-slider slider-icon colored-darkorange" type="checkbox" id="ismybtn" <eq name="cache.ismy" value="1">checked="checked"</eq>>
+                                <span class="text darkorange">&nbsp;&nbsp;&larr;重要：启用后纯免邮商品免邮费。</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">开启自定义销量</label>
+                        <div class="col-lg-4">
+                            <label>
+                                <input type="hidden" name="issells" value="{$cache.issells}" id="issells">
+                                <input class="checkbox-slider slider-icon colored-darkorange" type="checkbox" id="issellsbtn" <eq name="cache.issells" value="1">checked="checked"</eq>>
+                                <span class="text darkorange">&nbsp;&nbsp;&larr;重要：开启后前端显示自定义销量。</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group" id="dissells">
+                        <label class="col-lg-2 control-label">自定义销量</label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="dissells" placeholder="填写自定义销量，此销量也会自动增长" value="{$cache.dissells}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">开启限购</label>
+                        <div class="col-lg-4">
+                            <label>
+                                <input type="hidden" name="islimitsell" value="{$cache.islimitsell}" id="islimitsell">
+                                <input class="checkbox-slider slider-icon colored-darkorange" type="checkbox" id="islimitsellbtn" <eq name="cache.islimitSell" value="1">checked="checked"</eq>>
+                                <span class="text darkorange">&nbsp;&nbsp;&larr;重要：开启后前端显示限购。</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group" id="limitsell">
+                        <label class="col-lg-2 control-label">每人限购</label>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control" name="limitsell" placeholder="填写每人限购数量" value="{$cache.limitsell}">
+                        </div><label class="control-label">份</label>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">开启限时购买</label>
+                        <div class="col-lg-4">
+                            <label>
+                                <input type="hidden" name="isshortsell" value="{$cache.isshortsell}" id="isshortsell">
+                                <input class="checkbox-slider slider-icon colored-darkorange" type="checkbox" id="isshortsellbtn" <eq name="cache.isshortsell" value="1">checked="checked"</eq>>
+                                <span class="text darkorange">&nbsp;&nbsp;&larr;重要：开启后前端显示限时购买。</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group" id="shortset">
+                        <label class="col-lg-2 control-label">限时日期</label>
+                        <div class="col-lg-2">
+                             <input placeholder="请输入日期" class="laydate-icon" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" value="<?php if($cache['isshortsell']==1){
+                             echo date('Y-m-d H:i:s',$cache['shortsells']/1000);
+                             } ?>" name="shortsells">
+                        </div>
+                        <div class="col-lg-2">
+                             <input placeholder="请输入日期" class="laydate-icon" onClick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" value="<?php if($cache['isshortsell']==1){echo date('Y-m-d H:i:s',$cache['shortselle']/1000);} ?>" name="shortselle">
+                        </div>
+                         <div class="col-lg-2">
+                             <span class="text darkorange">←重要:点不出来点另一个就可以了</span>
+                            
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">选择标签</label>
+                        <div class="col-lg-4">
+                            <volist name="label" id="vo_l">
+                                <label>
+                                    <input type="checkbox" class="colored-blue label-check" <in name="vo_l.id" value="$cache.lid">checked="checked"</in> value="{$vo_l.id}" data-label="{$vo_l.name}">
+                                    <span class="text">{$vo_l.name}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                </label>
+                            </volist>
+                        </div>
+                        <input type="hidden" name="lid" id="lid" value="{$cache.lid}" />
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品排序<sup>*</sup></label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="sorts" placeholder="" value="{$cache.sorts}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品备注</label>
+                        <div class="col-lg-4">
+                            <textarea class="form-control" name="summary" rows="5">{$cache.summary}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">商品详情</label>
+                        <div class="col-lg-4">
+                            <!--必须插入空input避免验证冲突-->
+                            <input type="hidden">
+                            <script type="text/plain" id="J-ueditor">
+                                {$cache.content|htmlspecialchars_decode}
+                            </script>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-4">
+                            <button class="btn btn-primary btn-lg" type="submit">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-palegreen btn-lg" type="reset">重填</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--面包屑导航封装-->
+<script src="__PUBLIC__/Admin/js/datetime/moment.js"></script>
+<script src="__PUBLIC__/Admin/js/datetime/daterangepicker.js"></script>
+<div id="tmpbread" style="display: none;">{$breadhtml}</div>
+<script type="text/javascript">
+setBread($('#tmpbread').html());
+$('#usetime').daterangepicker();
+</script>
+<!--/面包屑导航封装-->
+<!--编辑器封装-->
+<script type="text/javascript">
+var ue = UE.getEditor('J-ueditor', {
+    textarea: 'content' //提交字段名，必须填写，数据库必须有此字段    
+});
+</script>
+<!--/编辑器封装-->
+<!--表单验证与提交封装-->
+<script type="text/javascript">
+if ($('#issellsbtn').prop('checked')) {
+    $('#dissells').slideDown();
+} else {
+    $('#dissells').slideUp();
+}
+if ($('#islimitsellbtn').prop('checked')) {
+    $('#limitsell').slideDown();
+} else {
+    $('#limitsell').slideUp();
+}
+if ($('#isshortsellbtn').prop('checked')) {
+    $('#shortset').slideDown();
+} else {
+    $('#shortset').slideUp();
+}
+$('#AppForm').bootstrapValidator({
+    submitHandler: function(validator, form, submitButton) {
+        var lid = '';
+        var checks = $('.label-check');
+        $(checks).each(function() {
+            if ($(this).is(":checked")) {
+                lid += $(this).val() + ',';
+            }
+        });
+        $('#lid').val(lid);
+        var tourl = "{:U('Admin/Shop/goodsSet')}";
+        var data = $('#AppForm').serialize();
+        $.App.ajax('post', tourl, data,null);
+        return false;
+    },
+});
+$('#isskubtn').on('click', function() {
+    var value = $(this).prop('checked') ? 1 : 0;
+    $('#issku').val(value);
+});
+$('#ismybtn').on('click', function() {
+    var value = $(this).prop('checked') ? 1 : 0;
+    $('#ismy').val(value);
+});
+$('#issellsbtn').on('click', function() {
+    var value;
+    if ($(this).prop('checked')) {
+        value = 1;
+        $('#dissells').slideDown();
+    } else {
+        value = 0;
+        $('#dissells').slideUp();
+    }
+    $('#issells').val(value);
+});
+$('#islimitsellbtn').on('click', function() {
+    var value;
+    if ($(this).prop('checked')) {
+        value = 1;
+        $('#limitsell').slideDown();
+    } else {
+        value = 0;
+        $('#limitsell').slideUp();
+    }
+    $('#islimitsell').val(value);
+});
+$('#isshortsellbtn').on('click', function() {
+    var value;
+    if ($(this).prop('checked')) {
+        value = 1;
+        $('#shortset').slideDown();
+    } else {
+        value = 0;
+        $('#shortset').slideUp();
+    }
+    $('#isshortsell').val(value);
+});
+</script>
+<!--/表单验证与提交封装-->
+<!-- 时间插入插件 -->
+<script type="text/javascript">
+!function(){
+    laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+    laydate({elem: '#demo'});//绑定元素
+}();
+
+//日期范围限制
+var start = {
+    elem: '#start',
+    format: 'YYYY-MM-DD',
+    min: laydate.now(), //设定最小日期为当前日期
+    max: '2099-06-16', //最大日期
+    istime: true,
+    istoday: false,
+    choose: function(datas){
+         end.min = datas; //开始日选好后，重置结束日的最小日期
+         end.start = datas //将结束日的初始值设定为开始日
+    }
+};
+
+var end = {
+    elem: '#end',
+    format: 'YYYY-MM-DD',
+    min: laydate.now(),
+    max: '2099-06-16',
+    istime: true,
+    istoday: false,
+    choose: function(datas){
+        start.max = datas; //结束日选好后，充值开始日的最大日期
+    }
+};
+laydate(start);
+laydate(end);
+
+//自定义日期格式
+laydate({
+    elem: '#test1',
+    format: 'YYYY年MM月DD日',
+    festival: true, //显示节日
+    choose: function(datas){ //选择日期完毕的回调
+        alert('得到：'+datas);
+    }
+});
+
+//日期范围限定在昨天到明天
+laydate({
+    elem: '#hello3',
+    min: laydate.now(-1), //-1代表昨天，-2代表前天，以此类推
+    max: laydate.now(+1) //+1代表明天，+2代表后天，以此类推
+});
+</script>
+<!-- 时间插入插件结束 -->
